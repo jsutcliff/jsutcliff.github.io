@@ -9,7 +9,7 @@
 title: Justin Sutcliff
 
 # Your name to show in the footer
-author: Some Person
+author: Justin Sutcliff
 
 # --- List of links in the navigation bar --- #
 
@@ -81,7 +81,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "JustinSutcliff.com"
+#url-pretty: "JustinSutcliff.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -99,16 +99,16 @@ feed_show_tags: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#2e4d59"
+navbar-col: "#364b5e"
 navbar-text-col: "#EAEAEA"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
-hover-col: "#a9dee9"
-footer-col: "#2e4d59"
+hover-col: "#8fb0ce"
+footer-col: "#364b5e"
 footer-text-col: "#EAEAEA"
-footer-link-col: "#829ba0"
+footer-link-col: "#287cc8"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour

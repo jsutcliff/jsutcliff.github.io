@@ -4,21 +4,25 @@ title: About me
 subtitle: "Subtitle Here"
 share-title: "Justin Sutcliff | About me"
 share-description: "Description of page"
+css: "/assets/css/about.css"
 ---
 
 <div id="aboutme-section">
 
     <p class="about-text">
         <span class="fa fa-briefcase about-icon"></span>
-        Currently employed with <strong>Textron</strong> as a part of the <strong>Leadership Development Program</strong>.
-        Throughout this program I've had the opportunity to rotate to <strong>Textron Systems</strong> in <i>Hunt Valley, Maryland</i>,
+        Currently employed with <strong>Textron</strong> as a part of the <strong>Leadership Development
+            Program</strong>.
+        Throughout this program I've had the opportunity to rotate to <strong>Textron Systems</strong> in <i>Hunt
+            Valley, Maryland</i>,
         and <strong>Bell</strong> in <i>Fort Worth, Texas</i>.
     </p>
 
     <p class="about-text">
         <span class="fa fa-graduation-cap about-icon"></span>
         Graduated from <strong>Purdue University</strong> with a B.S. in <strong>Aerospace Engineering</strong>
-        with a major concentration in <strong>Design</strong> and a minor concentration in <strong>Dynamics and Controls</strong>.
+        with a major concentration in <strong>Design</strong> and a minor concentration in <strong>Dynamics and
+            Controls</strong>.
     </p>
 
     <!-- <p class="about-text">
@@ -30,7 +34,8 @@ share-description: "Description of page"
 
     <p class="about-text">
         <span class="fa fa-heart about-icon"></span>
-        I love the <strong>outdoors</strong>; I frequently go hiking or backpacking and also enjoy mountain biking and adventure riding.
+        I love the <strong>outdoors</strong>; I frequently go hiking or backpacking and also enjoy mountain biking and
+        adventure riding.
     </p>
 
     <p class="about-text">
@@ -45,4 +50,62 @@ share-description: "Description of page"
         moved to <i>West Lafayette, Indiana</i> for school;
         interned in <i>Northport, Michigan</i> and <i>Wichita, Kansas</i> during school;
         worked in <i>Hunt Valley, Maryland</i> and <i>Fort Worth, Texas</i> after undergrad.
+    </p>
+
+    <h1><span class="fa fa-chart-bar about-icon"></span> Skills</h1>
+
+    <p class="about-text">
+        An honest assessment of my technical skills and abilities.
+        <i>Updated: November 2020</i>
+        <hr>
+        <strong>1</strong> - Some Exposure,
+        <strong>2</strong> - Acquiring Experience,
+        <strong>3</strong> - Self Sufficient,
+        <strong>4</strong> - Efficient Application,
+        <strong>5</strong> - Teaching & Leveraging
+        <hr>
+    </p>
+
+    <h3><span class="fa fa-code about-icon"></span> Software Development</h3>
+    <div class="container" id="software-container"></div>
+    <br>
+    <h3><span class="fa fa-drafting-compass about-icon"></span> 3D Modeling</h3>
+    <div class="container" id="cad-container"></div>
+    <br>
+    <h3><span class="fa fa-ruler about-icon"></span> Analysis Tools</h3>
+    <div class="container" id="analysis-container"></div>
+
+    <script>
+        function getRow(title, level) {
+            width = level / 5.0 * 100
+            var html = "";
+            html += '<div class="row justify-content-between">'
+            html += '<strong class="col-auto">' + title + '</strong>'
+            html += '<div class="col-8 my-auto">'
+            html += '<div class="progress">'
+            html += '<div class="progress-bar" role="progressbar" style="width:' + width + '%;">' + level + '</div>'
+            html += '</div></div></div>'
+
+            return html
+        }
+
+        document.getElementById("software-container").innerHTML += getRow('Matlab', 4);
+        document.getElementById("software-container").innerHTML += getRow('Python', 3);
+        document.getElementById("software-container").innerHTML += getRow('C++', 3);
+        document.getElementById("software-container").innerHTML += getRow('C', 2);
+        document.getElementById("software-container").innerHTML += getRow('Javascript', 2);
+        document.getElementById("software-container").innerHTML += getRow('Flutter / Dart', 2);
+        document.getElementById("software-container").innerHTML += getRow('Angular / Typescript', 1);
+        document.getElementById("software-container").innerHTML += getRow('Linux', 3);
+
+        document.getElementById("cad-container").innerHTML += getRow('Fusion 360', 4);
+        document.getElementById("cad-container").innerHTML += getRow('Inventor', 3);
+        document.getElementById("cad-container").innerHTML += getRow('Catia V5/V6', 3);
+        document.getElementById("cad-container").innerHTML += getRow('Solidworks', 2);
+        document.getElementById("cad-container").innerHTML += getRow('NX', 1);
+
+        document.getElementById("analysis-container").innerHTML += getRow('Ansys Workbench', 3);
+        document.getElementById("analysis-container").innerHTML += getRow('LS-DYNA', 2);
+        document.getElementById("analysis-container").innerHTML += getRow('Patran / Nastran', 2);
+    </script>
 </div>
