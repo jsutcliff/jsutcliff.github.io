@@ -3,7 +3,7 @@ layout: post
 title: Electric Moped Restomod
 subtitle: Some pictures and details from my moped restoration project
 cover-img: /assets/img/Electric Moped/IMG_2072-1536x1152_cropped.jpg
-thumbnail-img: /assets/img/Electric Moped/IMG_1769-1024x777.jpg
+thumbnail-img: /assets/img/Electric Moped/thumbnail.jpg
 share-img: /assets/img/Electric Moped/IMG_2072-1536x1152_cropped.jpg
 tags: [Bikes, Batteries, 3D Printing]
 ---
