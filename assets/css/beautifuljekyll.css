@@ -145,7 +145,7 @@ img {
   line-height: 1.5;
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -310,8 +310,8 @@ img {
 .navbar-custom .avatar-container {
   position: absolute;
   left: 50%;
-  width: 3.125rem;
-  margin-top: 3.1rem;
+  width: 4.125rem;
+  margin-top: 4.1rem;
   transition: opacity 0.5s ease-in-out;
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
@@ -348,7 +348,8 @@ img {
 
 @media (min-width: 1200px) {
   .navbar-custom.top-nav-regular .avatar-container {
-    width: 6.25rem;
+    width: 8.25rem;
+    margin-top: 4.1rem;
   }
 
   .navbar-custom.top-nav-regular .avatar-container .avatar-img-border {
@@ -647,7 +648,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .intro-header.big-img .post-heading {
   padding: 6.25rem 0;
   color: #FFF;
-  text-shadow: 1px 1px 3px #000;
+  text-shadow: 3px 3px 5px #000;
 }
 .intro-header .page-heading h1 {
   margin-top: 0;

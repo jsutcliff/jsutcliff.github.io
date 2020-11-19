@@ -195,7 +195,8 @@ timezone: "America/Toronto"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
+paginate: 10
+paginate_path: "projects/page:num/"
 
 kramdown:
   input: GFM
