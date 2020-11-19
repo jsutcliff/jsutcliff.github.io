@@ -19,7 +19,7 @@ I was a huge fan of the VORON extruder though. It allowed fast filament changes 
 <br>
 <img src="/assets/img/3D Printer/right.png" class="rounded float-center mx-auto d-block my-2">
 
-I printed these parts in some cheap PETG. As ou can see I've reused some of the old VORON extruder parts.
+I printed these parts in some cheap PETG. As you can see I've reused some of the old VORON extruder parts.
 
 <img src="/assets/img/3D Printer/PXL_20201118_205307499.jpg" class="rounded float-center mx-auto d-block my-2">
 <img src="/assets/img/3D Printer/PXL_20201118_205323616.jpg" class="rounded float-center mx-auto d-block my-2">
