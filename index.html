@@ -33,9 +33,7 @@ css: "/assets/css/home.css"
       {% if post.thumbnail-img %}
       <div class="post-image">
         <a href="{{ post.url | prepend: site.baseurl }}">
-          <div class="post-image-container">
-            <img src="{{ post.thumbnail-img }}">
-          </div>
+          <img src="{{ post.thumbnail-img }}" class="rounded-circle">
         </a>
       </div>
       {% endif %}
