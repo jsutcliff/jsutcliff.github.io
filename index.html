@@ -1,19 +1,27 @@
 ---
 layout: page
 title: Justin Sutcliff
-subtitle: Yuuup
-meta-title: "Hi, I'm Justin"
+subtitle: Aerospace Engineer - Maker
 use-site-title: true
 cover-img:
 - "/assets/img/pano.jpg" : "Big Bend"
 css: "/assets/css/home.css"
 ---
 
-<h1 class="text-center">Recent Projects</h1>
+<p class="intro">Hello and welcome to my personal webpage! Over the years I've tried to document some of the more
+  interesting personal projects that I've worked on - You can find those below and on the
+  <strong><a href="projects">Projects</a></strong> page. If you'd like to learn more about me, head over to the
+  <strong><a href="about">About</a></strong>
+  page.
+</p>
+
+<hr>
+
+<h1 class="display-4 text-center">Recent Projects</h1>
 <div class="spacer"></div>
 
 <div class="posts-list">
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts limit:3 %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
       <h2 class="post-title">{{ post.title }}</h2>
@@ -58,3 +66,9 @@ css: "/assets/css/home.css"
   </article>
   {% endfor %}
 </div>
+
+<ul class="pagination main-pager">
+  <li class="page-item next">
+    <a class="page-link" href="projects">More Posts &rarr;</a>
+  </li>
+</ul>

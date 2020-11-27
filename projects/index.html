@@ -3,7 +3,7 @@ layout: page
 title: Projects
 subtitle: All of my notable projects in one place
 meta-title: "A full list of all the projects I've posted"
-use-site-title: true
+share-title: "Justin Sutcliff | Projects"
 cover-img:
 - "/assets/img/pano.jpg" : "Big Bend"
 ---
@@ -65,7 +65,7 @@ cover-img:
     {% if thumbnail != "" %}
     <div class="post-image post-image-short">
       <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+        <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail" class="rounded-circle">
       </a>
     </div>
     {% endif %}
