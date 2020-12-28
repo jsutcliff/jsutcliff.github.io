@@ -10,10 +10,10 @@ tags: [RC, Electronics]
 Thought I'd share what I've been working on lately. Recently, the club I fly at made it a rule that you
 must be able to kill your engine remotely; choking the engine to kill it was deemed unreliable and dangerous. This means
 that ignition to the engine must completely stop on demand. For most guys who use electronic ignition systems, this is
-no problem. However, the enigne that I'm planning to use has a magneto ignition. This means that a magnet attached to
+no problem. However, the engine that I'm planning to use has a magneto ignition. This means that a magnet attached to
 the flywheel passes by a coil to generate the electricity for the spark. This ignition is particularly hard to stop
 because as long as the engine is spinning, sparks will continuously be created. Luckily the magneto on my engine has a
-wire that when grounded to the case of the engine will short out the sparks and effectively kill the egine. So, all I
+wire that when grounded to the case of the engine will short out the sparks and effectively kill the engine. So, all I
 had to do after I figured this out was create a device that shorts this wire to the case whenever it loses power or
 signal. Here's the final product:
 

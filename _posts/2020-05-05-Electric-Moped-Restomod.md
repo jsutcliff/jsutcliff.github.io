@@ -8,7 +8,7 @@ share-img: /assets/img/Electric Moped/IMG_2072-1536x1152_cropped.jpg
 tags: [Bikes, Batteries, 3D Printing]
 ---
 
-I Wanted to share some pictures from my college moped restoration project. Basically, I took a junk 1977 Batavus HS50 and added an electric motor and recycled 18650 battery. Here are a few photos from the original Facebook Marketplace listing:
+I wanted to share some pictures from my college moped restoration project. Basically, I took a junk 1977 Batavus HS50 and added an electric motor and recycled 18650 battery. Here are a few photos from the original Facebook Marketplace listing:
 
 <img style="float: center;" src="/assets/img/Electric Moped/IMG_1769-1024x777.jpg" class="w-auto p-2">
 <img style="float: right;" src="/assets/img/Electric Moped/IMG_1766-1024x782.jpg" class="w-50 p-2">
