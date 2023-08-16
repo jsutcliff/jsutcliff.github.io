@@ -7,7 +7,7 @@ share-img: assets/img/3D Printer/thumbnail.jpg
 tags: [3D Printing]
 ---
 
-Im my quest to push the ancient Makerfarm Prusa i3v to its maximum potential, I've once again redesigned the X carriage and extruder. Previous to this modification, I was using a bowden tube and the VORON Flex Bowder Extruder designed by russiancatfood on <a href="https://www.thingiverse.com/thing:1413699">thingiverse</a>. This was working well, but in my experience all bowden setups have left something to be desired when it comes to retraction tuning. With flexibles and materials sensitive to retraction (PETG) this becomes a bigger issue. For this reason I've decided to go back to a direct drive extruder.
+Im my quest to push the ancient Makerfarm Prusa i3v to its maximum potential, I've once again redesigned the X carriage and extruder. Previous to this modification, I was using a bowden tube and the VORON Flex Bowden Extruder designed by russiancatfood on <a href="https://www.thingiverse.com/thing:1413699">thingiverse</a>. This was working well, but in my experience all bowden setups have left something to be desired when it comes to retraction tuning. With flexibles and materials sensitive to retraction (PETG) this becomes a bigger issue. For this reason I've decided to go back to a direct drive extruder.
 
 I was a huge fan of the VORON extruder though. It allowed fast filament changes and handled flexibles perfectly. I also felt that my previous design for the X carriage with integrated E3D hotend and bed leveling servo mount was working just fine. So, I decided to merge these two deigns into one. The result can be seen in the Fusion 360 mockup and photos below:
 
